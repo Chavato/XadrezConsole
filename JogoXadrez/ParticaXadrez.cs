@@ -232,17 +232,12 @@ namespace JogoXadrez
         private void ColocarPecas()
         {
             ColocarNovaPeca('c', 1, new Torre(tab, Cor.Branco));
-            ColocarNovaPeca('c', 2, new Torre(tab, Cor.Branco));
-            ColocarNovaPeca('d', 2, new Torre(tab, Cor.Branco));
-            ColocarNovaPeca('e', 2, new Torre(tab, Cor.Branco));
-            ColocarNovaPeca('e', 1, new Torre(tab, Cor.Branco));
             ColocarNovaPeca('d', 1, new Rei(tab, Cor.Branco));
-            ColocarNovaPeca('c', 7, new Torre(tab, Cor.Preto));
-            ColocarNovaPeca('c', 8, new Torre(tab, Cor.Preto));
-            ColocarNovaPeca('d', 7, new Torre(tab, Cor.Preto));
-            ColocarNovaPeca('e', 7, new Torre(tab, Cor.Preto));
-            ColocarNovaPeca('e', 8, new Torre(tab, Cor.Preto));
-            ColocarNovaPeca('d', 8, new Rei(tab, Cor.Preto));
+            ColocarNovaPeca('h', 6, new Torre(tab, Cor.Branco));
+
+            ColocarNovaPeca('a', 8, new Rei(tab, Cor.Preto));
+            ColocarNovaPeca('b', 8, new Torre(tab, Cor.Preto));
+
 
         }
     }
