@@ -61,10 +61,7 @@ namespace XadrezConsole
 
             for (int i = 0; i < tab.linhas; i++)
             {
-                ConsoleColor aux2 = Console.ForegroundColor;
-                Console.ForegroundColor = ConsoleColor.Blue;
                 System.Console.Write(8 - i + " ");
-                Console.ForegroundColor = aux2;
 
                 for (int j = 0; j < tab.colunas; j++)
                 {
@@ -72,10 +69,8 @@ namespace XadrezConsole
                 }
                 System.Console.WriteLine();
             }
-            ConsoleColor aux = Console.ForegroundColor;
-            Console.ForegroundColor = ConsoleColor.Blue;
-            System.Console.Write("  A B C D E F G H");
-            Console.ForegroundColor = aux;
+            System.Console.Write("  a b c d e f g h");
+
         }
 
         public static void ImprimirTabuleiro(Tabuleiro tab, bool[,] posicoesPossiveis)
@@ -103,7 +98,7 @@ namespace XadrezConsole
                 }
                 System.Console.WriteLine();
             }
-            System.Console.Write("  A B C D E F G H");
+            System.Console.Write("  a b c d e f g h");
             Console.BackgroundColor = fundoOriginal;
         }
 

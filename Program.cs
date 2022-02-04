@@ -17,6 +17,7 @@ namespace XadrezConsole
                 {
                     try
                     {
+                        Console.ForegroundColor = ConsoleColor.White;
                         Console.Clear();
                         Tela.ImprimirPartida(partida);
 
